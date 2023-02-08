@@ -21,50 +21,32 @@ if (d > 100 || e > 100) {
 else {
     console.log('Неверно')
 }
-let a = 2;
-let b = 3;
+let a = Number('2');
+let b = Number('3');
 alert(a + b);
 
 let monthNumber = Number(prompt('Введите номер месяца'));
 switch(monthNumber) {
-    case 1:
-    console.log('Зима');
-    break;
-    case 2:
-    console.log('Зима');
-    break;
-    case 3:
-    console.log('Весна');
-    break;
-    case 4:
-    console.log('Весна');
-    break;
-    case 5:
-    console.log('Весна');
-    break;
-    case 6:
-    console.log('Лето');
-    break;
-    case 7:
-    console.log('Лето');
-    break;
-    case 8:
-    console.log('Лето');
-    break;
-    case 9:
-    console.log('Осень');
-    break;
-    case 10:
-    console.log('Осень');
-    break;
-    case 11:
-    console.log('Осень');
-    break;
+   case 1:
+   case 2:
     case 12:
-    console.log('Зима');
-    break;
-    default:console.log('Не является номером месяца');
-    break;
+        console.log('Зима')
+        break;
+   case 3:
+   case 4:
+   case 5:
+        console.log('Весна')
+        break;
+   case 6:
+   case 7:
+   case 8:
+        console.log('Лето') 
+        break;
+   case 9:
+   case 10:
+   case 11:
+        console.log('Осень')      
+        break;              
 }
 
 let numer = prompt('Пожалуйста, введите любое число');
