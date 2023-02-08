@@ -1,5 +1,6 @@
-let a = prompt('Значение');
+let a = 10;
 alert(a);
+a = 20;
 
 
 let yearFirstIphone = 2007;
